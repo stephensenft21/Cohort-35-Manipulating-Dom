@@ -1,32 +1,32 @@
-console.log("Hello World");
-let name = "Stephen Senft";
-console.log("My name is", name);
+// console.log("Hello World");
+// let name = "Stephen Senft";
+// console.log("My name is", name);
 
-/*
-    This code will only return the first section component
-    even though there are three components with the same
-    class
-*/
-const sectionEl = document.querySelector(".article__section")
+// /*
+//     This code will only return the first section component
+//     even though there are three components with the same
+//     class
+// */
+// const sectionEl = document.querySelector(".article__section")
 
-/*
-    This code will only return the third section component
-*/
-const footerEl = document.querySelector(".article__footer")
+// /*
+//     This code will only return the third section component
+// */
+// const footerEl = document.querySelector(".article__footer")
 
-/*
-    Get reference to the section with the class of `smallText`
-    and remove that class. Then add a new class of `largeText`
-*/
-const smallTextEl = document.querySelector(".smallText")
-smallTextEl.classList.remove("smallText")
-smallTextEl.classList.add("largeText")
-
-
+// /*
+//     Get reference to the section with the class of `smallText`
+//     and remove that class. Then add a new class of `largeText`
+// */
+// const smallTextEl = document.querySelector(".smallText")
+// smallTextEl.classList.remove("smallText")
+// smallTextEl.classList.add("largeText")
 
 
 
 
+
+ 
 const E1 = document.querySelector(".article__header")
 E1.textContent = "Welcome to Stephen's blog"
 //Use JavaScript to obtain a reference to the first section with the class of article_header and change its text with the textContent property to "Welcome to the {insert your name here} blog"
@@ -54,3 +54,4 @@ const E4 = document.querySelector(".article__footer")
 E4.classList.add("goldenrod")
 console.log(E4)
 
+ 
